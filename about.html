@@ -1,7 +1,6 @@
-
 ---
 layout: page
-title: About
+title: 关于
 comments: true
 permalink: /about/
 ---
@@ -18,8 +17,6 @@ permalink: /about/
         <a href="https://www.oukohou.wang/" target="_blank"><u>某大数据公司。</u></a></p>
     <del><p>我是王子朋，一名深度学习算法工程师，现任职于
         <a href="http://www.cloudminds.com/" target="_blank"><u>达闼科技</u></a>（成都）。</p></del>
-    <!--<p>一直担心在公共网络公开自己的姓名职业会有什么不妥，但转念一想，自己都不公开这些，别人又怎么会知道我？</p>-->
-    <!--<p>万一将来我出名了呢？对吧。</p>-->
 
 
     <p>我的社交账号有：</p>
@@ -178,33 +175,3 @@ permalink: /about/
     </p>
 
 </div>
-
-<p>Jack of all trades, master of none.</p>
-
- 
-
-<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-
-<p><br/><br/><br/><br/><br/><br>
-<hr/><br/>不写个评论嘛：</p>
-<div id="valine_comment" class="fb_comments_container"></div>
-<script>
-    var notify = '{{site.valine.notify}}' === true;
-    var verify = '{{site.valine.verify}}.>' === true;
-    var visitor = '{{site.valine.visitor}}.>' === true;
-
-    new Valine({
-        av: AV,
-        el: '#valine_comment',
-        notify: notify,
-        verify: verify,
-        // smiles_url: '/smiles',
-        visitor: visitor,
-        app_id: '{{site.valine.app_id}}',
-        app_key: '{{site.valine.app_key}}',
-        placeholder: '{{site.valine.placeholder}}',
-        avatar: '{{site.valine.avatar}}'
-    });
-</script>
